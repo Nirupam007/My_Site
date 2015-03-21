@@ -1,0 +1,19 @@
+<nav ng-class="getNavStyle(scroll)">
+  <button ng-click="goPrevious()" class="btn"><i class="mdi-image-navigate-before"></i></span></button>
+  <button ng-click="goNext()" class="btn"><i class="mdi-image-navigate-next"></i></span></button>
+
+  <button ng-click="zoomIn()" class="btn"><i class="mdi-content-add"></i></span></button>
+  <button ng-click="zoomOut()" class="btn"><i class="mdi-content-remove"></i></span></button>
+
+  <button ng-click="rotate()" class="btn" style="font-size: 16px;padding: 3px 6px;">90</span></button>
+
+  <span class="small">Page: </span>
+  <input type="text" min=1 ng-model="pageNum" class="small">
+  <span class="small"> / {{pageCount}}</span>
+
+</nav>
+
+<hr>
+
+<div class="loading">{{loading}}</div>
+<canvas id="pdf" class="rotate0"></canvas>

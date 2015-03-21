@@ -1,0 +1,225 @@
+body{font-family: 'Open Sans', sans-serif;}
+
+.appnav {margin:0; padding:0}
+.appnav ul{display:block; padding-left:0}
+.appnav ul li{padding:13px 10px; list-style-type:none; border-bottom:solid 1px #bdbdbd; display:inline-block !important; width:100%}
+.appnav ul li:hover{ cursor:pointer; cursor:hand; width:100%}
+.appnav ul li.nohover{ background: #009587; color:#fff; cursor:pointer;cursor:pointer; padding-bottom:25px}
+.appnav ul li a {position:relative;color:#262626;font-size:18px; text-decoration:none; padding:0px 174px 5px 16px;outline:none;}
+.appnav ul li a:before {
+  content: "";
+  position: absolute;
+  width: 40%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #666666;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  -moz-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  -o-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -ms-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+  outline:none;
+}
+.appnav ul li a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  -moz-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  -o-transform: scaleX(1);
+  transform: scaleX(1);
+}
+.me{width:120px; height:120px;}
+.md-default-theme{background-color:#666666}
+.align_img{margin-left:75px; margin-bottom:15px}
+.media-body{text-align:center;}
+.mdi-image-timer-auto{color:red}
+.role{font-size:15px}
+span[class^='mdi-']{float:left;font-size:25px;}
+
+md-toolbar .logo {
+  font-size: 1.250em;
+  font-weight: 400;
+  margin: 0 auto;
+  height: 0;
+  position: relative;
+  top: -1px;
+  text-align:center;
+  width:100%;
+}
+md-toolbar .badgearea{position:absolute; top:23px;left:68px;width:100%}
+md-list .md-button {
+  color: inherit;
+  font-weight: 500;
+  text-align: left;
+  width: 100%;
+}
+md-toolbar.md-default-theme {
+background-color: #fff;
+color: #666666;
+border-bottom:solid 1px #bdbdbd;
+box-shadow:none;
+width:100%;
+}
+
+.visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0; 
+  position: absolute;
+  width: 1px;
+}
+
+/* Using Data-URI converted from svg until <md-icon> becomes available 
+https://github.com/google/material-design-icons
+*/
+.mdi-navigation-unfold-more{
+background-color: transparent;
+border:none;
+border-right: solid 1px #bdbdbd;
+font-size: 45px;
+height:63px;
+}
+
+.coverbg{background:url(../images/head_bg.png) repeat-x; height:350px}
+.coverbg h1{font-family: 'Open Sans', sans-serif; font-size:5.3em; color:#666666}
+
+.homeIntro{font-family: 'Open Sans', sans-serif;
+  font-size: 32px;
+  color: #000;
+  padding: 50px 0 0 0 ;
+
+  /*text-shadow:1px 1px 3px  #666666;*/
+}
+.homeIntro span{ font-size:13px}
+.black{color:#fff}
+.moreintro{  margin:20px 0; font-size: 17px;  }
+ 
+ .skills{ font-size:20px; padding-top:20px}  
+.skills .topic{background-color:#eaeaea;border-radius:5px; -webkit-border-radius:5px;-moz-border-radius:5px;-ms-border-radius:5px;-o-border-radius:5px;padding:10px}
+.homeIntro span.name{font-size:20px; line-height:25px}
+i[class^="fa"]{ font-size:40px; } 
+ 
+@media screen and (max-width: 322px) {
+   .homeIntro {
+  font-size: 37px;
+  }
+  
+ .homeIntro p.small-scr{ display:none;}
+}
+
+@media screen and (max-width: 460px) {
+   .homeIntro {
+  font-size: 25px;
+  }
+}
+.box{margin-bottom:20px}
+.box p{font-size:15px; font-weight:bold; border-bottom:1px dotted #666666}
+.box h5{ font-weight:bold; margin:10px 5px 0 0;}
+.box p.used{font-size:15px; color:#666666}
+.box a:hover  img{
+    opacity: 0.4;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+	transition:0.5s ease-in-out;
+	-webkit-transition:0.5s ease-in-out;
+	-moz-transition:0.5s ease-in-out;
+	-ms-transition:0.5s ease-in-out;
+	-o-transition:0.5s ease-in-out;
+}
+ i.mdi-navigation-arrow-back{
+  margin: 10px 0 10px 0;
+  padding: 10px;
+  border: solid 1px #ddd;
+  font-size:37px;
+  
+}
+a:hover{text-decoration:none}
+i.contact_icon {font-size:3em; color:#009587}
+
+.ng-enter      {  
+    -webkit-animation:scaleUp 0.2s both ease-in;
+    -moz-animation:scaleUp 0.2s both ease-in;
+	-ms-animation:scaleUp 0.2s both ease-in;
+	-o-animation:scaleUp 0.2s both ease-in;
+    animation:scaleUp 0.2s both ease-in;    
+}
+/* scale up */
+@keyframes scaleUp {
+    from        { opacity: 0.3;filter: alpha(opacity=30);transform: scale(0.8); }
+}
+@-moz-keyframes scaleUp {
+    from        { opacity: 0.3;filter: alpha(opacity=30); -moz-transform: scale(0.8); }
+}
+@-webkit-keyframes scaleUp {
+    from        { opacity: 0.3;filter: alpha(opacity=30); -webkit-transform: scale(0.8); }
+}
+
+
+
+.left{padding-right:10px;font-size:25px}
+.badge{background-color:#009587;color:#eaeaea}
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+*{box-sizing: border-box;}
+.wrapper {margin: 0 auto; width: 100%; margin-left:15px }
+.pdf-controls { width: 100%; display: block;}
+.rotate0 {-webkit-transform: rotate(0deg);-moz-transform: rotate(0deg); transform: rotate(0deg); }
+.rotate90 {-webkit-transform: rotate(90deg);-moz-transform: rotate(90deg);  transform: rotate(90deg); }
+.rotate180 {-webkit-transform: rotate(180deg);-moz-transform: rotate(180deg); transform: rotate(180deg); }
+.rotate270 {-webkit-transform: rotate(270deg);-moz-transform: rotate(270deg); transform: rotate(270deg); }
+.fixed { position: fixed; top: 0; left: calc(50% - 480px); z-index: 100; width: 100%; padding: 1em; background: rgba(238, 238, 238,.9); width:100% }
+nav .btn{
+  border: solid 1px #bdbdbd;
+  font-size: 24px;
+  font-weight:bold:
+  color:#009587;
+  
+}
+.small{font-size:13px}
+.loading{margin:0 auto; font-size:22px; color:#999}
+@media screen and (max-width: 1200px) and (min-width:600px)  {
+   button.mdi-navigation-unfold-more{display:none}
+}
+}
+
+.uxskills{border:solid 1px red}
+.img-circle {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  -ms-border-radius: 50%;
+}
+
+.btn {
+  position: relative;
+  padding: 0; *
+  border: 0;
+  margin: 10px 1px;
+  cursor: pointer;
+   border-radius: 0;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.84);
+  transition: background-color 0.2s ease, box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+  outline: none !important;
+}
+a, a:hover, a:focus {
+  color: #009587;
+  text-decoration:none;
+}
+

@@ -1,0 +1,102 @@
+[
+  {
+  "id":"1",
+  "ProjectTitle":"Deloitte",
+  "ProjectUrl":"http://www2.deloitte.com/in/en.html",
+  "ShortDesc":"Web Component Development",
+  "LongDesc":" Build on top of Adobe CQ5 and later upgraded to adobe AEM6, Used LESS Preprocessor along with HTML/CSS/Javascript to built the component.My Sprint composed of 3 user stories with duration of 3 weeks.",
+  "Tech":"HTML5|CSS3|Jquery|Less",
+  "ImageUrl":"../images/deloitte.png",
+  "LastUpdate":"15/2/2015"
+  },
+  {
+  "id":"2",
+  "ProjectTitle":"Novartis",
+  "ProjectUrl":"http://www.novartis.com/",
+  "ShortDesc":"Ipad App Development",
+  "LongDesc":"An app designed only for Ipad (Retina Sprites). Its mainly for medical representatives in the US to showcase the new molecule added to the drug and its benefits through visual infographics.",
+  "Tech":"HTML|CSS3|Jquery|Sprites",
+  "ImageUrl":"../images/novartis.png",
+  "LastUpdate":"2/4/2014"
+  },
+  { 
+  "id":"3",
+  "ProjectTitle":"TouchWorks",
+  "ProjectUrl":"http://www.touchwork.com/",
+  "ShortDesc":"Mobile App Interface",
+  "LongDesc":"Mobile app UX Designed for the inhouse purchases through kindle and the status of the book life cycle easy to use navigation to perform various tasks in an Android device.",
+  "Tech":"Photoshop|Balsamiq|UX",
+  "ImageUrl":"../images/touchworks.png",
+  "LastUpdate":"8/5/2013"
+  },
+  {
+  "id":"4",
+  "ProjectTitle":"Fabula",
+  "ProjectUrl":"http://fabula.io/",
+  "ShortDesc":"API for Mobile App",
+  "LongDesc":"API JAVA based interface for web to publish any stories user creates to a Android mobile device through Fabula App. Its a inhouse product of Paradigm Creatives.",
+  "Tech":"HTML|CSS|Javascript|Sprites",
+  "ImageUrl":"../images/fabula-io.png",
+  "LastUpdate":"5/12/2013"
+  },
+  {
+  "id":"5",
+  "ProjectTitle":"Activefam",
+  "ProjectUrl":"https://www.activefam.com/",
+  "ShortDesc":"Social Network on RSVP",
+  "LongDesc":"Social Networking site for people to collaborate and engage in an group for various social events like parties,get together,Meetups etc through RSVP and make any event @ a pre scheduled date.Any member can drop or add themselves or members as the event arrives.",
+  "Tech":"HTML|CSS|Twitter Bootstrap|Jquery|Ruby on Rails|Ajax",
+  "ImageUrl":"../images/activefam.png",
+  "LastUpdate":"4/8/2012"
+  },
+  {
+  "id":"6",
+  "ProjectTitle":"Mealsharing",
+  "ProjectUrl":"https://www.mealsharing.com/",  
+  "ShortDesc":"Social Network over Home-cooked Meal",
+  "LongDesc":" Goal : Meal Sharing brings people together over home cooked meals. Our mission is to build communities through shared resources, facilitate deeper cultural exchange, and encourage people to cook at home to enable a healthier lifestyle",
+  "Tech":"HTML|CSS|Sprites|Jquery|Ruby on Rails|Ajax",
+  "ImageUrl":"../images/mealsharing.png",
+  "LastUpdate":"3/7/2012"
+  },
+  {
+  "id":"7",
+  "ProjectTitle":"Touchworks",
+  "ProjectUrl":"http://www.touchworks.in/",
+  "ShortDesc":"Kindle API Interface",
+  "LongDesc":" Build on top of Ruby on Rails a backend dashboard facility for the Product manager to keep track of the transactions made in a particular time or month or year",
+  "Tech":"HTML|CSS|Twitter Bootstrap|Jquery",
+  "ImageUrl":"../images/touchworks-api.png",
+  "LastUpdate":"20/7/2012"
+  },
+  {
+  "id":"8",
+  "ProjectTitle":"Hollywood Burger",
+  "ProjectUrl":"http://www.hollywood-burger.com/",  
+  "ShortDesc":"Web Design",
+  "LongDesc":"Site build on a objective combining the fun and excitement of Hollywood magic with the delicious experience of world-class U.S.-style burgers and fries, Hollywood Burger promises great food and fast service with a Hollywood smile!",
+  "Tech":"HTML|CSS|Twitter Bootstrap|Jquery",
+  "ImageUrl":"../images/hollywood-burger.png",
+  "LastUpdate":"11/6/2012"
+  },
+  {
+  "id":"9",
+  "ProjectTitle":"Future PLC",
+  "ProjectUrl":"http://www.futureplc.com/",   
+  "ShortDesc":"API Development",
+  "LongDesc":"API Development for Kindle for publishes,Future PLC has more than 30 magazines in fields such as video games, technology, films, photography, and sport.Future is the official magazine company of all three major games console manufacturers",
+  "Tech":"HTML|CSS|Photoshop|Jquery|Ruby on Rails",
+  "ImageUrl":"../images/future-group.png",
+  "LastUpdate":"24/12/2011"
+  },
+  {
+  "id":"10",
+  "ProjectTitle":"Coming Soon",
+  "ProjectUrl":"http://www.Will-Assign-Url.com/",  
+  "ShortDesc":"RWD | Angularjs App",
+  "LongDesc":"Will Have some Project Description",
+  "Tech":"HTML|CSS|Twitter Bootstrap|LESS|Jquery|AngularJs|RequireJs|Sublime|Brackets etc",
+  "ImageUrl":"../images/inprogress.png",
+  "LastUpdate":"1/12/2015"
+  }
+]

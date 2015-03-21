@@ -1,0 +1,35 @@
+<div class="row">
+  <div class="col-md-12">
+  <div class="homeIntro">
+				<b>Project Works !</b> 
+
+             <p class="lead">Some of the projects </p>
+		<div class="row clearfix" ng-controller="ProjectsController">
+		     <div class="col-md-12 box clearfix">
+			   <input type="text" class="form-control search" placeholder="Search for..." ng-model="searchText"/>
+			 </div>
+            <div class="col-sm-6 col-md-4 box " ng-repeat="project in projects |  filter:searchText">
+				<a href="/#/showproject/{{$index}}"><img class="img-thumbnail img-responsive img-wrap " ng-src="{{project.ImageUrl}}" alt="{{project.ProjectTitle}}" ></a>
+				<h5>{{project.ProjectTitle}}</h5>
+				<p>{{project.ShortDesc}}</p>
+				<p class="used">Used : {{project.Tech}}</p>
+				<p class="used">Last Updated : {{project.LastUpdate}}</p>
+			</div>
+			
+			
+        </div>
+		<!--<div class="row">
+			  <div class="col-md-12 text-center" >
+			     <md-button class="md-warn md-raised md-hue-2" ng-click="loadMore()">Load More</md-button>
+			  </div>
+			</div>
+	   -->
+  </div>
+</div>
+		
+		
+
+	 
+	 
+
+
